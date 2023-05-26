@@ -13,3 +13,13 @@ with open("C:/Users/Tou/Desktop/School/OOP/Python Stuff/Multiline/mylife.txt") a
     # Setup decision input for the loop function later
     decision = input(str("y for yes, n for no: "))
     decision = decision.lower()
+
+    while decision == "y":
+        if decision == "y":
+            line_input = input("PLease write the line you desire: ")
+            line_output.write(line_input + "\n")
+            print("Would you like to continue? y/n?")
+            decision = input(str("y for yes, n for no: "))
+            decision = decision.lower()
+        else:
+            break
