@@ -2,7 +2,7 @@ import sys
 
 print(sys.path)
 
-with open("C:/Users/Tou/Desktop/School/OOP/Python Stuff/Multiline/mylife.txt") as line_output:
+with open("C:/Users/Tou/Desktop/School/OOP/Python Stuff/Multiline/mylife.txt", "w") as line_output:
 
     # Create a function to add initial line
     line_input = input("PLease write the line you desire: ")
