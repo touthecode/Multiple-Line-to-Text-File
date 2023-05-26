@@ -23,3 +23,5 @@ with open("C:/Users/Tou/Desktop/School/OOP/Python Stuff/Multiline/mylife.txt") a
             decision = decision.lower()
         else:
             break
+
+print("You have chosen to END this program!")
